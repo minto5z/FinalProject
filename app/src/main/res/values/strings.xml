@@ -1,0 +1,28 @@
+<resources>
+    <string name="app_name">FinalProject</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_fish">FishActivity</string>
+    <string name="title_activity_animal">AnimalActivity</string>
+    <string name="title_activity_fosol">FosolActivity</string>
+    <string name="title_activity_value_fosol">ValueFosolActivity</string>
+    <string name="title_activity_projokty">ProjoktyActivity</string>
+    <string name="title_activity_comnication">ComnicationActivity</string>
+    <string name="title_activity_top_news">TopNewsActivity</string>
+    <string name="title_activity_post_fish">PostFishActivity</string>
+    <string name="title_activity_fish_details">FishDetailsActivity</string>
+    <string name="title_activity_post_animal">PostAnimalActivity</string>
+    <string name="title_activity_animal_details">AnimalDetailsActivity</string>
+    <string name="title_activity_post_fosol">PostFosolActivity</string>
+    <string name="title_activity_fosol_details">FosolDetailsActivity</string>
+    <string name="title_activity_post_value_fosol">PostValueFosolActivity</string>
+    <string name="title_activity_value_fosol_details">ValueFosolDetailsActivity</string>
+    <string name="title_activity_post_pro">PostProActivity</string>
+    <string name="title_activity_pro_details">ProDetailsActivity</string>
+    <string name="title_activity_fruit">FruitActivity</string>
+    <string name="title_activity_fruit_details">FruitDetailsActivity</string>
+    <string name="title_activity_post_fruit">PostFruitActivity</string>
+</resources>

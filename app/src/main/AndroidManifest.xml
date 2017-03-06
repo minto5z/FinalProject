@@ -1,0 +1,213 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.blogspot.larn4android.finalproject">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:hardwareAccelerated="false"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:largeHeap="true"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/app_name"
+            android:theme="@style/AppTheme.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".Splash">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".M_Activity.FishActivity"
+            android:label="@string/title_activity_fish"
+            android:parentActivityName=".MainActivity"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.blogspot.larn4android.finalproject.MainActivity" />
+        </activity>
+        <activity
+            android:name=".M_Activity.AnimalActivity"
+            android:label="@string/title_activity_animal"
+            android:parentActivityName=".MainActivity"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.blogspot.larn4android.finalproject.MainActivity" />
+        </activity>
+        <activity
+            android:name=".M_Activity.FosolActivity"
+            android:label="@string/title_activity_fosol"
+            android:parentActivityName=".MainActivity"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.blogspot.larn4android.finalproject.MainActivity" />
+        </activity>
+        <activity
+            android:name=".M_Activity.ValueFosolActivity"
+            android:label="@string/title_activity_value_fosol"
+            android:parentActivityName=".MainActivity"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.blogspot.larn4android.finalproject.MainActivity" />
+        </activity>
+        <activity
+            android:name=".M_Activity.ProjoktyActivity"
+            android:label="@string/title_activity_projokty"
+            android:parentActivityName=".MainActivity"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.blogspot.larn4android.finalproject.MainActivity" />
+        </activity>
+        <activity
+            android:name=".M_Activity.ComnicationActivity"
+            android:label="@string/title_activity_comnication"
+            android:parentActivityName=".MainActivity"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.blogspot.larn4android.finalproject.MainActivity" />
+        </activity>
+        <activity
+            android:name=".M_Activity.FruitActivity"
+            android:label="@string/title_activity_fruit"
+            android:parentActivityName=".MainActivity"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.blogspot.larn4android.finalproject.MainActivity" />
+        </activity>
+        <activity
+            android:name=".Post_Activity.TopNewsActivity"
+            android:label="@string/title_activity_top_news"
+            android:parentActivityName=".MainActivity"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.blogspot.larn4android.finalproject.MainActivity" />
+        </activity>
+        <activity
+            android:name=".Post_Activity.PostFishActivity"
+            android:label="@string/title_activity_post_fish"
+            android:parentActivityName=".M_Activity.FishActivity"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.blogspot.larn4android.finalproject.M_Activity.FishActivity" />
+        </activity>
+        <activity
+            android:name=".Details_Activity.FishDetailsActivity"
+            android:label="@string/title_activity_fish_details"
+            android:parentActivityName=".M_Activity.FishActivity"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.blogspot.larn4android.finalproject.M_Activity.FishActivity" />
+        </activity>
+        <activity
+            android:name=".Post_Activity.PostAnimalActivity"
+            android:label="@string/title_activity_post_animal"
+            android:parentActivityName=".M_Activity.AnimalActivity"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.blogspot.larn4android.finalproject.M_Activity.AnimalActivity" />
+        </activity>
+        <activity
+            android:name=".Details_Activity.AnimalDetailsActivity"
+            android:label="@string/title_activity_animal_details"
+            android:parentActivityName=".M_Activity.AnimalActivity"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.blogspot.larn4android.finalproject.M_Activity.AnimalActivity" />
+        </activity>
+        <activity
+            android:name=".Post_Activity.PostFosolActivity"
+            android:label="@string/title_activity_post_fosol"
+            android:parentActivityName=".M_Activity.FosolActivity"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.blogspot.larn4android.finalproject.M_Activity.FosolActivity" />
+        </activity>
+        <activity
+            android:name=".Details_Activity.FosolDetailsActivity"
+            android:label="@string/title_activity_fosol_details"
+            android:parentActivityName=".M_Activity.FosolActivity"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.blogspot.larn4android.finalproject.M_Activity.FosolActivity" />
+        </activity>
+        <activity
+            android:name=".Post_Activity.PostValueFosolActivity"
+            android:label="@string/title_activity_post_value_fosol"
+            android:parentActivityName=".M_Activity.FosolActivity"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.blogspot.larn4android.finalproject.M_Activity.FosolActivity" />
+        </activity>
+        <activity
+            android:name=".Details_Activity.ValueFosolDetailsActivity"
+            android:label="@string/title_activity_value_fosol_details"
+            android:parentActivityName=".M_Activity.ValueFosolActivity"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.blogspot.larn4android.finalproject.M_Activity.ValueFosolActivity" />
+        </activity>
+        <activity
+            android:name=".Post_Activity.PostProActivity"
+            android:label="@string/title_activity_post_pro"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <meta-data
+            android:name="android.support.PARENT_ACTIVITY"
+            android:value="com.blogspot.larn4android.finalproject.M_Activity.ProjoktyActivity" />
+        <activity
+            android:name=".Details_Activity.ProDetailsActivity"
+            android:label="@string/title_activity_pro_details"
+            android:parentActivityName=".M_Activity.ProjoktyActivity"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.blogspot.larn4android.finalproject.M_Activity.ProjoktyActivity" />
+        </activity>
+        <activity
+            android:name=".Details_Activity.FruitDetailsActivity"
+            android:label="@string/title_activity_fruit_details"
+            android:parentActivityName=".M_Activity.FruitActivity"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.blogspot.larn4android.finalproject.M_Activity.FruitActivity" />
+        </activity>
+        <activity
+            android:name=".Post_Activity.PostFruitActivity"
+            android:label="@string/title_activity_post_fruit"
+            android:parentActivityName=".M_Activity.FruitActivity"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.blogspot.larn4android.finalproject.M_Activity.FruitActivity" />
+        </activity>
+
+    </application>
+
+</manifest>

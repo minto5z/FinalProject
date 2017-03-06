@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.blogspot.larn4android.finalproject.Post_Activity.PostValueFosolActivity"
+    tools:showIn="@layout/activity_post_value_fosol">
+
+    <ImageButton
+        android:layout_width="match_parent"
+        android:layout_height="250dp"
+        android:id="@+id/btnImagePostValueFosol"
+        android:scaleType="center"
+        android:background="@drawable/top_add_image" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/etValueFosolPostTitle"
+        android:layout_marginTop="20dp"
+        android:hint="Enter Title Here" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textMultiLine"
+        android:ems="10"
+        android:id="@+id/etValueFosolPostDesc"
+        android:layout_marginTop="20dp"
+        android:hint="Enter Description Here" />
+
+</LinearLayout>
